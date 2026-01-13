@@ -1,0 +1,58 @@
+********* <h1> ARCHIVE COMMAND ****************
+
+tar -cvf archive.tar FILENAME  =  archive file create
+
+tar -tvf archive.tar FILENAME  = tar file show in list all
+
+
+********* <h1> XTRACT COMMAND ******************
+
+tar -xvf archive.tar -C /opt  =  archive file xtract and distination in /OPT
+
+tar -xvf archive.tar  =  present directory in archive file XTRACT
+
+du -sh archive.tar =  archive file AND tar file space check
+
+
+************* <h1> COMPRESSION COMMAND *******************
+
+gzip archive.tar   =   archive file in low compression low time  ....(archive.tar.gz file create)
+
+bzip2 archive.tar  =  archive file in medium compression medium time  ....( archive.tar.bz2 file create)
+
+xz archive.tar     =  archive file in more compression more time   .......(archive.tar.xz file create)
+
+du -sh archive.tar.gz  =  gzip file space check
+
+
+
+********* <h1>  DCOMPRESSION COMMAND ******************
+
+gunzip archive.tar.gz  =  compression file original size
+
+bunzip2 archive.tar.bz2 =  compression file original size 
+
+unxz archive.tar.xz     =  compressio file original size
+
+du -sh archive.tar     =  original size in archive.tar file 
+
+
+************** <h1> ARCHIVE and COMPRESSION COMMAND ****************
+
+tar -czvf archive.tar.gz  =  archive and low compression create file together
+
+tar -cjvf archive.tar.gz  =  archive and medium compression create file together
+
+tar -cJvf archive.tar.xz  =  archive and more compression create file together
+
+
+****************** <h1> XTRACT AND COMPRESSION COMMAND *******************
+
+tar -xzvf archive.tar.gz -C /opt  =  archive file to create file together xtract and low compression
+
+tar -xjvf archive.tar.bz2 -C /opt  =  archive file to create file together xtract and medium compression
+
+tar -xJvf archive.tar.xz -C /opt  =  archive file to create file together xtract and more compression
+
+<h1> *************************************************************************************************
+
