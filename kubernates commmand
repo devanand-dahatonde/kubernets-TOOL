@@ -29,12 +29,3 @@ kubectl get pods -o wide  = pods all information show in details
 
 kubectl get nodes -o wide  = nodes all information show in details
 
-
-
-
-
-
-
-
-
-
