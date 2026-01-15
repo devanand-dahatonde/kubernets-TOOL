@@ -1,0 +1,40 @@
+kubectl get nodes  = nodes information show in list (nodes if INSTANCE)
+
+aws eks update-kubeconfig --name CLUSTER_NAME  = cluster in enter
+
+kubectl run PODS_NAME --image=nginx = create to pods
+
+kubectl get pods  = all pods show in list
+
+kubectl expose pod PODS_NAME --port=80 --target-port=80 --type=NodePort  = pod expose to service in their are type to service type
+
+kubectl get svc  = service information show in list
+
+kubectl version --client = version check
+
+*******************************************************
+********************************************************
+**********************************************************
+************************************************************
+
+<h1> EMPERIATIY COMMAND
+
+kubectl run PODS_NAME --image=/user/repo:tag  = seconds pods create
+
+kubectl expose pod PODS_NAME --port=80 --target-port=80 --type=NodePort = pods expose to service in their are service type
+
+kubectl get svc  = list all service and their details
+
+kubectl get pods -o wide  = pods all information show in details
+
+kubectl get nodes -o wide  = nodes all information show in details
+
+
+
+
+
+
+
+
+
+
